@@ -1,0 +1,129 @@
+
+#socialLinks{
+   display: inline-block;
+   color: rgb(242, 247, 247);
+   text-decoration: none;
+   margin: 0 20px;
+   font-weight:600;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   transition: .3s;
+   opacity: 0;
+   animation: slideTop 1s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+   }
+#drop{
+   display: none;;
+}
+
+#socialLinks:hover{
+transition: .2s ease-in;
+color: rgb(43, 226, 226);
+font-weight:600;
+}
+
+
+/* background-color: white; */
+
+#buy{
+   display: inline-block;
+   opacity: 0;
+   animation: slideBottom 2s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+   color: black;
+   font-weight: 600;
+   border: 1px solid black;
+}
+#buy:hover{
+  border: 1px solid rgb(43, 226, 226);
+  color: white;
+  background-color: black;
+  
+  transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#title{
+   color: rgb(69, 167, 167);
+}
+
+#socialPlatform{
+   color: rgb(199, 184, 184);
+   display: inline-block;
+   transition: .2s;
+   opacity: 0;
+   animation: slideBottom 1s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+}
+#socialPlatform:hover{
+   color: rgb(24, 128, 197);
+}
+
+#muted-text{
+   display: inline-block;
+   opacity: 0;
+   animation: slideRight 2s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+}
+
+#img-an{
+   cursor: pointer;
+   display: inline-block;
+   opacity: 0;
+   animation: slideBottom 2s ease forwards;
+   animation-delay: calc(.2s * var(--i));
+}
+
+
+
+
+
+#car:hover{
+   zoom: 20%;
+}
+#car{
+   zoom: 10%;
+   cursor: pointer;
+}
+@keyframes slideTop {
+   0%{
+      transform: translateY(100px);
+      opacity: 0;
+   }
+   100%{
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+@keyframes slideBottom {
+   0%{
+      transform: translateX(100px)  ;
+      opacity: 0;
+   }
+   100%{
+      transform: translateX(0) ;
+      opacity: 1;
+   }
+}
+@keyframes slideRight {
+   0%{
+      transform: translateX(-100px)  ;
+      opacity: 0;
+   }
+   100%{
+      transform: translateX(0) ;
+      opacity: 1;
+   }
+}
+
+@media only screen and (max-width:767px) {
+   #socialLinks{
+      display: none;
+   }
+   #socialPlatform{
+      display: none;;;
+   }
+   #drop{
+      display: inline-block;
+      
+   }
+}

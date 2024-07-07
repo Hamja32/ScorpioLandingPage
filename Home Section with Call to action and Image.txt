@@ -1,0 +1,23 @@
+
+        <!---Home section start-->
+            <section class="home py-5" id="home">
+                <div class="container-lg">
+                    <div class="row min-vh-100 mt-md-0 align-items-center align-content-center">
+                        <div class="col-md-6">
+                        <div class="home-img text-center">
+                            <img src="img/img2.png"  class="rounded-circle mw-100">
+                            <!-- <img src="img/img.png"  class="rounded-circle mw-100"> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                        <div class="home-text">
+                            <p class="text-muted mb-1">Hello I'm</p>
+                            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
+                            <h2 class="fs-4">Hamza khan</h2>
+                            <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ex est nihil corporis accusantium illum provident exercitationem debitis!</p>
+                            <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ <!---Home section end-->
