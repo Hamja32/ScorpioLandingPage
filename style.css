@@ -63,7 +63,6 @@ font-weight:600;
    animation: slideRight 2s ease forwards;
    animation-delay: calc(.2s * var(--i));
 }
-
 #img-an{
    cursor: pointer;
    display: inline-block;
@@ -74,15 +73,6 @@ font-weight:600;
 
 
 
-
-
-#car:hover{
-   zoom: 20%;
-}
-#car{
-   zoom: 10%;
-   cursor: pointer;
-}
 @keyframes slideTop {
    0%{
       transform: translateY(100px);
